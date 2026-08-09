@@ -1,0 +1,288 @@
+body {
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+    color: #21243D;
+    scroll-behavior: smooth;
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+    padding-top: 20px;
+
+}
+
+#menu-button {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+    margin: 20px auto;
+}
+
+#nav-links {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+#button-cv {
+    background-color: #FF6464;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 1;
+    border-radius: 2px;
+
+}
+
+#header-content {
+    width: 630px;
+}
+
+#subtitle {
+    font-size: 16px;
+    margin: 35px 0;
+}
+
+#blog {
+    background-color: #EDF7FA;
+    padding-bottom: 35px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-blog {
+    background-color: #ffff;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    max-width: 48%;
+}
+
+#blog-content {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#article-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.date-category {
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+
+.article-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#projects {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.projects {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+
+.date-type {
+    display: flex;
+    gap: 25px;
+}
+
+.project-date {
+    font-weight: 900;
+    width: 62px;
+    height: 25px;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #142850;
+    border-radius: 16px;
+    text-align: center;
+    align-content: center;
+}
+
+.project-type {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#contact {
+
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#contact-content {
+    display: flex;
+    gap: 40px;
+
+}
+
+.contact-title {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#cordonnes {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    background-color: #F7F7F7;
+    height: 46px;
+}
+
+textarea {
+    height: 165px;
+}
+
+button {
+    height: 56px;
+    background-color: #000000;
+    color: #F7F7F7;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footer-text {
+    font-size: 14px;
+}
+
+@media(max-width:700px) {
+    .nav-link {
+        display: none;
+    }
+
+    #menu-button {
+        display: block;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #header-content {
+        width: 100%;
+    }
+
+    #articles {
+        flex-direction: column;
+    }
+
+    .article-blog {
+        max-width: none;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .date-category {
+        gap: 5px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+
+    #cordonnes {
+        display: none;
+    }
+}
