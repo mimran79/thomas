@@ -6,3 +6,4 @@
 ----i---Added Font Link Prior to custom Styleing
 ----ii--Added Header Image dimensions to avoid layoutshift
 ----iii-Added Meta Description for SEO recommended by Lighthouse
+----iV--Changed Button color in the header recommened by Lighthouse for contrast
