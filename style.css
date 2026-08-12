@@ -1,8 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 body {
     font-family: "Heebo", sans-serif;
     margin: 0;
     color: #21243D;
-    scroll-behavior: smooth;
 
 }
 
@@ -239,12 +243,27 @@ footer {
 }
 
 @media(max-width:700px) {
-    .nav-link {
-        display: none;
-    }
 
     #menu-button {
         display: block;
+    }
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #EDF7FA;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #nav-links.active {
+        display: flex;
     }
 
     h2 {
